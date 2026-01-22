@@ -1,0 +1,535 @@
+/*Reyska Ramdhany
+MMI 665
+Final Project*/
+
+
+h1 {
+	font-size: 3.4375em; /*55px*/
+	margin-bottom: 24px;
+	max-width: 14em;
+	line-height: 1.2;
+	text-align: left;
+}
+
+h1:hover {
+	font-size: 3.5em; /*56px*/
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+  font-size: 2.8125em; /* 45px */
+  font-weight: 500;
+  color: #000000; /* Black */
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+/* NAVBAR */
+.logo-nav {
+  height: 100px;
+  width: auto;
+  padding-left: 60px;
+}
+
+.navbar-custom {
+  background-color: #2E4088; /* Navy blue */
+  margin-left: 2px;
+	margin-right: 2px;
+}
+
+.navbar-custom .nav-link {
+  color: #fffffc !important; /* White */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em; /* 20px */
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #FFC586 !important; /* Orange on hover*/
+}
+
+.navbar-toggler {
+	background-color: #ffffff; 
+  border-color: #ffffff;
+  margin-right: 20px;
+}
+
+.navbar-toggler:hover {
+  background-color: #F5CEE1;/*sheer pink*/
+  border-color: #FFC586;
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+  /* Display & Positioning */
+  display: flex;
+  align-items: center;
+  
+  /* Box Model */
+  min-height: 650px;
+  margin-top: 20px;
+  border-radius: 0px;
+  
+  /* Typography */
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  
+  /* Visual */
+  background-color: #2E4088;
+  background-image: url('../images/audience.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dek {
+	margin-bottom: 32px;
+	max-width: 500px; /* Desktop: 500px */
+	font-family:'Roboto', sans-serif;
+	font-size: 1.5em; /* 24px */
+}
+
+.btn-primary {
+	font-weight: 500;
+	color: #ffffff;/*white*/
+	background-color: #C34883;/*pink*/
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: none;
+}
+
+.btn-primary:hover {
+	background-color: #f0f3bd;/*sheer green*/
+	color: #14213d;/*navy*/
+	border: none;
+	text-shadow: none;
+}
+
+/* ABOUT US SECTION */
+
+.aboutus {
+	background-color: #F5CEE1;/*sheer pink*/
+	text-align: center; 
+	padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+  margin-top: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+}
+
+
+
+/* TICKET AND SUPPORT US SECTION */
+.ticket {
+  background-image: url('../images/ticket.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center; 
+  color: #ffffff; /* white */
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 150px; 
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+}
+
+.ticket h2 {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+  font-family: 'Archivo Black', sans-serif;
+  margin-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ticket p {
+  color: #ffffff;
+  font-size: 1.125em; /* 18px */
+  line-height: 1.7;
+  max-width: 500px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.support {
+  background-image: url('../images/support.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center; 
+  color: #ffffff; /* white */
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 150px; 
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+}
+
+.support h2 {
+  color: #ffffff !important; 
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  font-family: 'Archivo Black', sans-serif;
+  margin-bottom: 25px;
+}
+
+.support p {
+  color: #ffffff;
+  font-size: 1.125em; /* 18px */
+  line-height: 1.7;
+  max-width: 450px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+/* 2025 WINNERS SECTION */
+.winners {
+  background-color: #FFC586;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 10px; 
+  padding-left: 20px;
+ 	padding-right: 20px; 
+ 	padding-bottom: 10px;
+}
+
+.winners-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.8125em; /* 45px */
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.winner-link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.winner-link:hover {
+  transform: scale(1.02);
+}
+
+.winner-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+  transition: filter 0.3s ease, brightness 0.3s ease;
+}
+
+.winner-link:hover .winner-img {
+  filter: brightness(0.6);
+}
+
+/* Carousel Controls Styling */
+.winners .carousel-control-prev,
+.winners .carousel-control-next {
+  width: 5%;
+}
+
+.winners .carousel-control-prev-icon,
+.winners .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.winners .carousel-indicators button {
+  background-color: #000000;
+}
+
+/* NEWS STORIES SECTION */
+.news-section {
+  background-color: #F5CEE1;
+  padding-top: 10px; 
+  padding-left: 20px;
+  padding-right: 20px; 
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.news-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.8125em; /* 45px */
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* News Card */
+.news-card {
+  display: block;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Background Images */
+.story1 {
+  background-image: url('../images/story1.png');
+}
+
+.story2 {
+  background-image: url('../images/story2.png');
+}
+
+.story3 {
+  background-image: url('../images/story3.png');
+}
+
+.story4 {
+  background-image: url('../images/story4.png');
+}
+
+
+
+/* Dark overlay */
+.news-card::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+}
+
+.news-card h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em; /* 20px */
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.3;
+  position: relative;
+  z-index: 2;
+}
+
+.news-card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+}
+
+/* More Stories */
+.more-stories {
+  display: flex;
+  height: 740px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.story5 {
+  background-image: url('../images/story5.png');
+}
+
+.btn-navy{
+	font-weight: 500;
+	color: #ffffff;/*white*/
+	background-color: #2E4088;/*navy*/
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: none;
+}
+
+.btn-navy:hover{
+	background-color: #f0f3bd;/*sheer green*/
+	color: #14213d;/*navy*/
+	border: none;
+	text-shadow: none;
+}
+
+/* PARTNERSHIP SECTION */
+.partnership {
+	background-color:#FFC586;/*orange*/
+	text-align: center;
+	padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+  margin-top: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+}
+
+
+
+/* STAY UPDATED SECTION */
+.stay-updated {
+  background-image: url('../images/filmroll.png');
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+  margin-top: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+}
+
+.stay-updated h2 {
+  color: #ffffff;
+}
+
+.stay-updated p {
+  color: #ffffff;
+  font-size: 1.125em; /* 18px */
+  height: 70px;
+}
+
+/* Subscribe Form */
+.subscribe-form {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.subscribe-form .form-control {
+  height: 50px;
+  font-size: 1.125em; /* 18px */
+  padding: 0 20px;
+  border: none;
+}
+
+.btn-subscribe {
+	font-weight: 600;
+  height: 50px;
+  padding: 0 40px;
+  font-size: 1.25em; /* 20px */
+  color: #ffffff;
+  background-color: #2E4088;
+  border: none;
+}
+
+
+.btn-subscribe:hover {
+  background-color: #f0f3bd;/*sheer green*/
+	color: #14213d;/*navy*/
+}
+
+/* FOOTER */
+.footer {
+  background-color: #2E4088;
+  padding: 30px 20px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: auto;
+}
+
+.footer-nav {
+  text-align: center; 
+  margin: 0 auto;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125em; /* 18px */
+  font-weight: 400;
+}
+
+.footer-link:hover {
+  color: #FFC586;
+}
+
+.social-icons {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 6px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.copyright {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875em; /* 14px */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 767px) {
+	.footer-logo {
+		margin-bottom: 30px;
+	}
+	
+	.footer-nav {
+		margin-bottom: 30px;
+	}
+	
+	.social-icons {
+		margin-bottom: 25px;
+	}
+}
